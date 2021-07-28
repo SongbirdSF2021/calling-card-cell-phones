@@ -27,22 +27,6 @@ class CallingCard {
  }
 }
 
-
-let card = new CallingCard(20); // this card costs 20 cents / minute to use
-
-card.addDollars(1);          // add $1 (100 cents).  100 cents / 20 cents/minute = 5 minutes added
-//card.addDollars(1);
-//card.addDollars(7);
-//console.log(card);
-
-card.getRemainingMinutes();   // returns 5  (5 minutes left)
-
-card.useMinutes(3);
-card.getRemainingMinutes();   // return 2
-
-card.useMinutes(1);
-card.getRemainingMinutes();   // returns 1
-
 export default CallingCard
 
 
